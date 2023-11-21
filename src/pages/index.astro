@@ -15,7 +15,10 @@ import Footer from '../components/Footer.astro'
         Get a new Astro project up and running locally with our helpful
         create-astro CLI wizard!
       </p>
-      <Tabs />
+      <Tabs 
+          headings={["NPM", "PNPM", "YARN"]} 
+          contents={["$ npm create astro@latest", "$ pnpm create astro@latest", "$ yarn create astro" ]} 
+          activeTextColor={"#A741FF"}/>
       <h3>Start Building</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsum
